@@ -1,6 +1,11 @@
 #include "PQueueH.h"
 
-PriorityQueue::clear()
+void PriorityQueue::clear()
 {
-  data.clear();
+  H.clear();
+}
+
+int PriorityQueue::size()
+{
+  return H.size() - 1;
 }
