@@ -6,7 +6,6 @@ int main()
    {
        PriorityQueue pqueue; 
 
-       auto x = 13.75;
        vector<int> Vec;
  
        for (auto z: {10, 14, 8, 12, 7, 20, 17})
@@ -25,7 +24,7 @@ int main()
 
        
       while (pqueue.size() > 0)
-        v.push_back( pqueue.deleteMin());
+        Vec.push_back( pqueue.deleteMin());
 
     
       for (auto z: Vec)
